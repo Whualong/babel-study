@@ -1,6 +1,6 @@
 ## 学习babel转译器的核心包
 
-- babel/parse
+- babel/parser
 
 - babel/traverse 
 
