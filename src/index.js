@@ -1,7 +1,7 @@
 const { transformFileSync } = require('@babel/core')
 const path = require('path');
 const insertConsolePlugin = require('./plugins/insertConsole.js')
-const { code } = transformFileSync( path.join(__dirname,'./sourceCode.js'),{
+const { code } = transformFileSync( path.join(__dirname,'./source/console.js'),{
     plugins : [ insertConsolePlugin ],
     parserOpts : {
         plugins : [ 'jsx' ],
